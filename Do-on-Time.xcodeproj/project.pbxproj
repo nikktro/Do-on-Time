@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C2D5D912815C0AC005FEAF6 /* TasksManagerTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D5D902815C0AC005FEAF6 /* TasksManagerTableVC.swift */; };
 		2C2D5D932815C0EA005FEAF6 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D5D922815C0EA005FEAF6 /* AddTaskVC.swift */; };
 		2C2D5D952815C108005FEAF6 /* NewTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D5D942815C108005FEAF6 /* NewTaskVC.swift */; };
 		2C2D5D972815C1B1005FEAF6 /* TaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D5D962815C1B1005FEAF6 /* TaskModels.swift */; };
+		2CA25903281D816B00AE0EE2 /* TasksManagerTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA25902281D816B00AE0EE2 /* TasksManagerTableVC.swift */; };
+		2CA25906281D81A700AE0EE2 /* NewtaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA25904281D81A700AE0EE2 /* NewtaskTableViewCell.swift */; };
 		B1E0CC0427E8E9AA008DFC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0CC0327E8E9AA008DFC55 /* AppDelegate.swift */; };
 		B1E0CC0627E8E9AA008DFC55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0CC0527E8E9AA008DFC55 /* SceneDelegate.swift */; };
-		B1E0CC0827E8E9AA008DFC55 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0CC0727E8E9AA008DFC55 /* NavigationController.swift */; };
 		B1E0CC0B27E8E9AA008DFC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E0CC0927E8E9AA008DFC55 /* Main.storyboard */; };
 		B1E0CC0D27E8E9AF008DFC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E0CC0C27E8E9AF008DFC55 /* Assets.xcassets */; };
 		B1E0CC1027E8E9AF008DFC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E0CC0E27E8E9AF008DFC55 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C2D5D902815C0AC005FEAF6 /* TasksManagerTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksManagerTableVC.swift; sourceTree = "<group>"; };
 		2C2D5D922815C0EA005FEAF6 /* AddTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
 		2C2D5D942815C108005FEAF6 /* NewTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVC.swift; sourceTree = "<group>"; };
 		2C2D5D962815C1B1005FEAF6 /* TaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskModels.swift; path = "Do-on-Time/ViewControllers/TaskModels.swift"; sourceTree = SOURCE_ROOT; };
+		2CA25902281D816B00AE0EE2 /* TasksManagerTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksManagerTableVC.swift; path = ../../../../../../.Trash/TasksManagerTableVC.swift; sourceTree = "<group>"; };
+		2CA25904281D81A700AE0EE2 /* NewtaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtaskTableViewCell.swift; sourceTree = "<group>"; };
+		2CA2590A281DA8D100AE0EE2 /* NewtaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewtaskCell.xib; sourceTree = "<group>"; };
 		B1E0CC0027E8E9AA008DFC55 /* Do-on-Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-on-Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E0CC0327E8E9AA008DFC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E0CC0527E8E9AA008DFC55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1E0CC0727E8E9AA008DFC55 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		B1E0CC0A27E8E9AA008DFC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1E0CC0C27E8E9AF008DFC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E0CC0F27E8E9AF008DFC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,10 +87,10 @@
 		B1E0CC1827E8E9DD008DFC55 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B1E0CC0727E8E9AA008DFC55 /* NavigationController.swift */,
-				2C2D5D902815C0AC005FEAF6 /* TasksManagerTableVC.swift */,
 				2C2D5D922815C0EA005FEAF6 /* AddTaskVC.swift */,
+				2CA25902281D816B00AE0EE2 /* TasksManagerTableVC.swift */,
 				2C2D5D942815C108005FEAF6 /* NewTaskVC.swift */,
+				2CA25904281D81A700AE0EE2 /* NewtaskTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -97,6 +98,7 @@
 		B1E0CC1927E8E9EE008DFC55 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				2CA2590A281DA8D100AE0EE2 /* NewtaskCell.xib */,
 				B1E0CC0927E8E9AA008DFC55 /* Main.storyboard */,
 				B1E0CC0E27E8E9AF008DFC55 /* LaunchScreen.storyboard */,
 			);
@@ -190,12 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E0CC0827E8E9AA008DFC55 /* NavigationController.swift in Sources */,
+				2CA25906281D81A700AE0EE2 /* NewtaskTableViewCell.swift in Sources */,
 				B1E0CC0427E8E9AA008DFC55 /* AppDelegate.swift in Sources */,
 				2C2D5D932815C0EA005FEAF6 /* AddTaskVC.swift in Sources */,
-				2C2D5D912815C0AC005FEAF6 /* TasksManagerTableVC.swift in Sources */,
 				2C2D5D972815C1B1005FEAF6 /* TaskModels.swift in Sources */,
 				2C2D5D952815C108005FEAF6 /* NewTaskVC.swift in Sources */,
+				2CA25903281D816B00AE0EE2 /* TasksManagerTableVC.swift in Sources */,
 				B1E0CC0627E8E9AA008DFC55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
